@@ -1,25 +1,25 @@
 class Teks < Formula
   desc "Local SMS testing for developers"
   homepage "https://github.com/kentj-dev/teks"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kentj-dev/teks/releases/download/v0.1.0/teks-aarch64-apple-darwin.tar.xz"
-      sha256 "0450d37351eb272b533e1308ddde87b4a358636571850cc0cda2bbcab3e39b1f"
+      url "https://github.com/kentj-dev/teks/releases/download/v0.1.1/teks-aarch64-apple-darwin.tar.xz"
+      sha256 "0917e8ec0153c50f659a6de422d1acd31f0740229a15645cb0539a9acadaef5e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kentj-dev/teks/releases/download/v0.1.0/teks-x86_64-apple-darwin.tar.xz"
-      sha256 "bea65e9b1d40b6bd89dcc9d8a1fccaf560719fe7831e4b04741d3c400e33bac9"
+      url "https://github.com/kentj-dev/teks/releases/download/v0.1.1/teks-x86_64-apple-darwin.tar.xz"
+      sha256 "45f0510a08de409bccddfdef33f1b362798785a023b1e3f947b5a35247260528"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kentj-dev/teks/releases/download/v0.1.0/teks-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9d4d5a6ad0e1a439f35d57dd0bed2bb06a31e863e1032c540bc8205d662272fd"
+      url "https://github.com/kentj-dev/teks/releases/download/v0.1.1/teks-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "bc5dd31ecfb73d73ded4817ddcb574f393bafa8e6297e159970583a57477a4cf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kentj-dev/teks/releases/download/v0.1.0/teks-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "13039de90cbe1bd9639347485a9fd5be75df272005736770b05164db4436d15d"
+      url "https://github.com/kentj-dev/teks/releases/download/v0.1.1/teks-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7d7e3d094f501980b65756cc4d3de05444bab6723d96058b72bc9110c654352a"
     end
   end
   license "MIT"
